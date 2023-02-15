@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap'); */
+
+@layer base{
+    html{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+}
+@layer components {
+   
+    
+    .btn-nav.active::before{
+        height: 4em;
+        width: 60%;
+        content: "";
+        border-bottom:  2px solid #D5144A;
+        position: absolute;
+        bottom: 3px;
+        left: 1px;
+    }
+    .btn-nav{
+        position: relative;
+        font-weight: 300;
+        color: #BCBCBC;
+        font-size: 15px;
+        transition: all .3s ease-in-out;
+
+    }
+    .btn-nav::before{
+        transition: all .2s ease-in-out;
+        height: 4em;
+        width: 0%;
+        content: "";
+        border-bottom:  2px solid #D5144A;
+        position: absolute;
+        bottom: 3px;
+        left: 1px;
+    }
+    .btn-nav:hover::before{
+        width: 60%;
+    }
+    .line{
+        position: relative;  
+    }
+    .bg{
+        width:100%;
+    }
+    .bg img{
+
+            pointer-events: none;
+            position: absolute;
+            overflow: hidden;
+            -webkit-animation: slide-top 8s ease-in-out infinite alternate both;
+                    animation: slide-top 8s ease-in-out infinite alternate both;
+        
+        }
+        .bg img:nth-child(1) { animation-delay: .5s }
+        .bg img:nth-child(2) { animation-delay: 1s }
+        .bg img:nth-child(3) { animation-delay: 1.5s }
+        .bg img:nth-child(4) { animation-delay: 2s }
+        .bg img:nth-child(5) { animation-delay: 3s }
+        .bg img:nth-child(6) { animation-delay: 4s }
+        .bg img:nth-child(7) { animation-delay: 5s }
+        .bg img:nth-child(8) { animation-delay: 6s }
+        .bg img:nth-child(9) { animation-delay: 7s }
+        
+        @-webkit-keyframes slide-top {
+          0% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+          }
+          100% {
+            -webkit-transform: translateY(-100px);
+                    transform: translateY(-100px);
+          }
+        }
+        @keyframes slide-top {
+          0% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+          }
+          100% {
+            -webkit-transform: translateY(-100px);
+                    transform: translateY(-100px);
+          }
+        }
+        
+    
+}
