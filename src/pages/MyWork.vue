@@ -11,11 +11,11 @@ export default {
 <template>
 
 <div class="bg relative">
-            <img src="../assets/BG/Group 4.svg" class="w-[40.42px] left-[511px] top-[106px]">
-            <img src="../assets/BG/Group 5.svg" class="w-[91.23px] left-[500px] top-[601px]">
-            <img src="../assets/BG/Group 11.svg" class="w-[40px] left-[774px] top-[185px]">
-            <img src="../assets/BG/Group 10.png" class="w-[52.5px] left-[563px] top-[190px]">
-            <img src="../assets/BG/Group 12.svg" class="w-[70px] left-[1091px] top-[200px]">
+            <img src="../assets/BG/Group4.svg" class="w-[40.42px] left-[511px] top-[106px]">
+            <img src="../assets/BG/Group5.svg" class="w-[91.23px] left-[500px] top-[601px]">
+            <img src="../assets/BG/Group11.svg" class="w-[40px] left-[774px] top-[185px]">
+            <img src="../assets/BG/Group10.png" class="w-[52.5px] left-[563px] top-[190px]">
+            <img src="../assets/BG/Group12.svg" class="w-[70px] left-[1091px] top-[200px]">
 </div>
   <div class=" flex-col justify-center align-middle min-h-screen  items-center overflow-hidden">
 
@@ -82,6 +82,12 @@ export default {
             title="Flutter Store App"
             image="store.png"
             disc="Flutter Store App"
+            path="#"
+            />
+            <MyWorkCard 
+            title="Flutter Todolist App"
+            image="1.png"
+            disc="Flutter Todolist App"
             path="#"
             />
             
