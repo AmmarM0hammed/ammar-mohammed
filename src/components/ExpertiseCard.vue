@@ -18,7 +18,7 @@ export default {
             :delay="delay"
         >
                     <div class="flex flex-row items-center">
-                        <img :src="'src/assets/lang/' +imageName" class="w-20">
+                        <img :src="'@/assets/lang/' +imageName" class="w-20">
                         <div class="flex flex-col justify-start text-left space-y-0">
                             <p class="font-semibold text-2xl ">{{title}}</p>
                              <p class="font-semibold text-2xl relative -top-2">Development</p>

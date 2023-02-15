@@ -36,7 +36,7 @@ export default {
 
             class="animate-bounce"
             >
-           <a href="#expert"> <img src="../assets/Dodils/mouse.png"  class="w-12"></a>
+           <a href="#expert"> <img src="@/assets/Dodils/mouse.png"  class="w-12"></a>
         </div>
         
     </div>

@@ -18,7 +18,7 @@ export default {
            
             :delay="600"
     >
-        <figure><img :src="'src/assets/MyWork/'+image" alt="Work" class="rounded-3xl  transition-all hover:brightness-75"/></figure>
+        <figure><img :src="'@/assets/MyWork/'+image" alt="Work" class="rounded-3xl  transition-all hover:brightness-75"/></figure>
         <div class="card-body">
             <h2 class="card-title">{{title}}</h2>
             <p>{{ disc }}</p>
